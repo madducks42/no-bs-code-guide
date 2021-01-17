@@ -2,4 +2,6 @@
 
 Rails.application.routes.draw do
   root 'homepages#index'
+
+  get 'new-rails-react-project', to: 'homepages#index'
 end
