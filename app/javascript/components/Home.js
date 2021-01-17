@@ -16,12 +16,36 @@ export const Home = () => {
         <h4 className='is-size-4'>Guides</h4>
         <div className='guide-link'>
           <Link
-            className="is-size-6"
+            className="is-size-6 article-link"
             to='/new-rails-react-project'
           >
             New Rails/React project
           </Link>
-          <p>Simple guide on how to setup a basic Rails/React with Webpack.</p>
+          <p>Simple guide on how to setup a basic Rails/React project with Webpack.</p>
+        </div>
+        <div className='guide-link'>
+          <Link
+            className="is-size-6 article-link"
+          >
+            Adding Bulma to Rails/React Project (Coming Soon!)
+          </Link>
+          <p>Simple guide on how to add the Bulma style framework to your project along with some basic style sheets.</p>
+        </div>
+        <div className='guide-link'>
+          <Link
+            className="is-size-6 article-link"
+          >
+            Adding Bootstrap to Rails/React Project (Coming Soon!)
+          </Link>
+          <p>Simple guide on how to add Bootstrap to your Rails/React project. Personally I hate Bootstrap but whatevs.</p>
+        </div>
+        <div className='guide-link'>
+          <Link
+            className="is-size-6 article-link"
+          >
+            Setup Prettier & ES Lint (Coming Soon!)
+          </Link>
+          <p>Simple guide on how to add Prettier and ES Lint to your Rails/React project.</p>
         </div>
       </div>
     </div>

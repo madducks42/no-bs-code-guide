@@ -15,16 +15,16 @@
  */
 
 // Header Overrides
-$navbar-background-color: #476c9b;
+$navbar-background-color: #00B4D8;
 $navbar-height: 10rem;
 $navbar-item-img-max-height: 8rem;
 $navbar-item-color: #f7f9fb;
 $navbar-item-hover-color: #f7f9fb;
 $navbar-item-hover-background-color: #ed9905;
-$navbar-dropdown-background-color: #476c9b;
+$navbar-dropdown-background-color: #00B4D8;
 
 // Footer Overrides
-$footer-background-color: #476c9b;
+$footer-background-color: #00B4D8;
 $footer-color: true;
 $footer-padding: 2rem;
 
@@ -55,7 +55,8 @@ $button-focus-box-shadow-size: 0 0 0 0em;
 $button-hover-border-color: #ed9905;
 $button-text-hover-color:#f7f9fb;
 
-// Spacing Overrides
-// $spacing-shortcuts: ("margin": "mg");
+// Link Overrides
+$link: #0077b6;
+$link-hover:  #ea3546;
 
- @import "bulma";
+@import "bulma";

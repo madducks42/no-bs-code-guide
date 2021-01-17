@@ -7,24 +7,16 @@
   background-color: #101419;
 }
 
-.color-bg-red {
-  background-color: #984447;
-}
-
 .color-bg-blue {
-  background-color: #476c9b;
-}
-
-.color-bg-green {
-  background-color: #98b9ab;
-}
-
-.color-bg-yellow {
-  background-color: #ed9905;
+  background-color: #00B4D8;
 }
 
 .color-bg-purple {
-  background-color: #413c58;
+  background-color: #52489c;
+}
+
+.color-bg-red {
+  color: #ea3546;
 }
 
 // General Page Setup
@@ -54,6 +46,12 @@ body {
 }
 
 html pre {
-  background-color: #adb5bd;
-  padding: 0;
+  background-color: #dcdcdd;
+  padding: 10px;
+  margin: 5px;
 }
+
+.article-link {
+  text-decoration: underline;
+}
+
