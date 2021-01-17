@@ -1,0 +1,55 @@
+.callout {
+  border: 1px solid #adb5bd;
+}
+
+// Generic Flexblox Style
+.flex-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.flex-row img {
+  margin: 5px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.code-block {
+  background-color: #adb5bd;
+  padding: 10px;
+  margin: 5px;
+}
+
+// Button Styles
+.button:hover {
+  background-color: #ed9905;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+}
+
+// Image Sizes
+
+.image-sm {
+  width: 25%;
+  height: auto;
+}
+
+.image-md {
+  width: 50%;
+  height: auto;
+}
+
+.image-lg {
+  width: 90%;
+  height: auto;
+}
+
+.guide-link {
+  border-bottom: 5px solid #adb5bd;
+}
+

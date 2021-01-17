@@ -11,7 +11,22 @@
   </head>
 
   <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+      <a class="navbar-item logo" href="/">
+        <img src="/images/logo.png">
+      </a>
+        <a class="navbar-item" href="/">
+          <h1 class="is-size-1">No BS Code Guide</h1>
+        </a>
+      </div>
+    </nav>
+
     <%= yield %>
+
+    <footer class="has-text-centered footer">
+      <h5 class="is-size-5">&copy; No BS Code Guide</h5>
+    </footer>
 
     <%- if Rails.env.development? || Rails.env.test? -%> 
       <%= javascript_tag do %>
