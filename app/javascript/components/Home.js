@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import NewRailsReactProject from './NewRailsReactProject'
-
 export const Home = () => {
   return (
     <div className="container">
@@ -26,9 +24,9 @@ export const Home = () => {
         <div className='guide-link'>
           <Link
             className="is-size-6 article-link"
-            to='/new-rails-react-project'
+            to='/bulma'
           >
-            Adding Bulma to Rails/React Project (Coming Soon!)
+            Adding Bulma to Rails/React Project
           </Link>
           <p>Simple guide on how to add the Bulma style framework to your project along with some basic style sheets.</p>
         </div>

@@ -20,9 +20,17 @@
   width: 100%;
 }
 
+// Code Block Style
 .code-block {
+  font-family: monospace;
   background-color: #dcdcdd;
-  padding: 10px;
+  padding: 20px;
+  margin: 5px;
+}
+
+html pre {
+  background-color: #dcdcdd;
+  padding: 20px;
   margin: 5px;
 }
 
@@ -33,7 +41,6 @@
 }
 
 // Image Sizes
-
 .image-sm {
   width: 25%;
   height: auto;
@@ -49,8 +56,13 @@
   height: auto;
 }
 
+// Link style
 .guide-link {
   border-bottom: 5px solid #adb5bd;
   margin-bottom: 10px;
+}
+
+.article-link {
+  text-decoration: underline;
 }
 
