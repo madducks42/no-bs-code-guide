@@ -5,9 +5,6 @@ export const NewRailsReactProject = () => {
     <div className="container">
       <div className="flex-column p-sm">
         <h2 className='is-size-2'>New Rails/React Project</h2>
-        <ul>
-          <li>Basic details about project</li>
-        </ul>
         <h6 className='step-title'>Step 1) Create the project</h6>
         <p>Open a terminal window, make sure your working directory is the one where you want your file to be created. Run the following command:</p>
         <p className='code-block'>rails new new-rails-react-project --webpack=react -d=postgresql</p>
