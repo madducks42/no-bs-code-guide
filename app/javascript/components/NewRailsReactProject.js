@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export const NewRailsReactProject = () => {
   return (
     <div className="container">
@@ -22,15 +21,13 @@ export const NewRailsReactProject = () => {
 
         <h6 className='step-title'>Step 3) Add Webpack script</h6>
         <p>If you haven’t already opened package.json do so now. Add a comma after the curly bracket for devDependencies and add the following:</p>
-        <p className='code-block'>
-          <pre>
-            <code>{`
+        <pre>
+          <code>{`
 "scripts": {
-  "start": "./bin/webpack-dev-server"
+"start": "./bin/webpack-dev-server"
 }
-          `}</code>
-          </pre>
-        </p>
+        `}</code>
+        </pre>
         <p>At this point your 'package.json' file should looke like this:</p>
         <pre>
           <code>
