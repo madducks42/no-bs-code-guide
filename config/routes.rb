@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get 'new-rails-react-project', to: 'homepages#index'
   get 'bulma', to: 'homepages#index'
+  get 'bootstrap', to: 'homepages#index'
+  get 'prettier-eslint', to: 'homepages#index'
 end
