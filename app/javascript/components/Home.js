@@ -26,6 +26,7 @@ export const Home = () => {
         <div className='guide-link'>
           <Link
             className="is-size-6 article-link"
+            to='/new-rails-react-project'
           >
             Adding Bulma to Rails/React Project (Coming Soon!)
           </Link>
@@ -34,6 +35,7 @@ export const Home = () => {
         <div className='guide-link'>
           <Link
             className="is-size-6 article-link"
+            to='/new-rails-react-project'
           >
             Adding Bootstrap to Rails/React Project (Coming Soon!)
           </Link>
@@ -42,6 +44,7 @@ export const Home = () => {
         <div className='guide-link'>
           <Link
             className="is-size-6 article-link"
+            to='/new-rails-react-project'
           >
             Setup Prettier & ES Lint (Coming Soon!)
           </Link>
