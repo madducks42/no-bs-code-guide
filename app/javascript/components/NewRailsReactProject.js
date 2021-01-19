@@ -7,8 +7,8 @@ export const NewRailsReactProject = () => {
         <h2 className='is-size-2'>New Rails/React Project</h2>
         <h6 className='step-title'>Step 1) Create the project</h6>
         <p>Open a terminal window, make sure your working directory is the one where you want your file to be created. Run the following command:</p>
-        <p className='code-block'>rails new new-rails-react-project --webpack=react -d=postgresql</p>
-        <p>This will create a Rails project with the latest stable versions of Rails, Webpack, React, and Postgresql</p>
+        <p className='code-block'>rails new new-rails-react-project --webpack=react -d=postgresql --skip-turbolinks</p>
+        <p>This will create a Rails project with the latest stable versions of Rails, Webpack, React, and Postgresql. If there is something you don't want to be installed by default, like turbolinks, you can add --skip-whatever-you-don't-want-installed. Usually the only thing I skip are turbo links because they can be difficult to setup/troubleshoot and generally aren't worth it. Other commonly skipped things are active storage and coffee.</p>
         <p>I use VScode so at this point I open the project there and use the terminal within VScode. If you’re using a different editor like Atom that doesn’t have a built-in terminal, just make sure to navigate to your project in terminal for the remainder of the instructions. (And yes I could say “Duh” here but we all know that we’ve tried to run commands in terminal when we weren’t in the right directory and it took us a good five minutes to realize what the problem was. You will find no holier than thou attitude here.)</p>
 
         <h6 className='step-title'>Step 2) Install relevant components</h6>
@@ -70,7 +70,7 @@ export const NewRailsReactProject = () => {
         <img className="image-md" src="https://no-bs-code-production.s3.amazonaws.com/RailsNew.png" />
 
         <h6 className='step-title'>Step 5) Add some Rails stuff</h6>
-        <p>Stop running the rails server (ctrl-c) and run the following command:</p>
+        <p>Stop running the rails server (ctrl-c) and webpack-dev-server, then run the following command:</p>
         <p className='code-block'>rails g controller homepages index</p>
         <p>This nifty command creates a bunch of Rails files for you.</p>
         <pre>
@@ -214,7 +214,7 @@ export default Home
             `}
           </code>
         </pre>
-        <p>Now start your server again and refresh your browser window and your app should be working again.</p>
+        <p>Now start your rails server and webpack-dev-server and refresh your browser window and your app should be working again.</p>
       </div>
     </div>
   )
