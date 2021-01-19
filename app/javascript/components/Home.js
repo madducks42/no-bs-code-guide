@@ -34,7 +34,7 @@ export const Home = () => {
             className="is-size-6 article-link"
             to='/bootstrap'
           >
-            Adding Bootstrap to Rails/React Project (Coming Soon!)
+            Adding Bootstrap to Rails/React Project
           </Link>
           <p>Simple guide on how to add Bootstrap to your Rails/React project. Personally I hate Bootstrap but whatevs.</p>
         </div>
