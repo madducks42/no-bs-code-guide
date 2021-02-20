@@ -4,22 +4,76 @@ export const Bulma = () => {
   return (
     <div className="container">
       <div className="flex-column p-sm">
-        <h2 className='is-size-2'>Setting Up Bulma</h2>
-        <p>Bulma is the CSS framework that I prefer. It's not perfect but to me it strikes a good balance of providing a useful framework but also allowing customization.</p>
-        <p>Despite the instructions on the Bulma website, I actually find it easier to add it as a gem. All I do to add it to a project is add this gem to your Gem file:</p>
-        <div className="code-block"> {`
+        <h2 className="is-size-2">Setting Up Bulma</h2>
+        <p>
+          Bulma is the CSS framework that I prefer. It&apos;s not perfect but to me
+          it strikes a good balance of providing a useful framework but also
+          allowing customization.
+        </p>
+        <p>
+          Despite the instructions on the Bulma website, I actually find it
+          easier to add it as a gem. All I do to add it to a project is add this
+          gem to your Gem file:
+        </p>
+        <div className="code-block">
+          {" "}
+          {`
           gem "bulma-rails", "~> 0.8.0"
           `}
         </div>
-        <p>After that just run 'bundle install' and bam. You've got Bulma. Now you just have to actually use it.</p>
-        <p>To actually start using Bulma go to your stylesheets folder which is located under Assets and change the application.css file to application.scss. This changes your main style sheet from a Cascading Style Sheet (CSS) to a Syntactically Awesome Style Sheet (SCSS). I'm not making that up, that's really what SCSS stands for. SCSS is basically more advanced CSS and lets you do cool things like import SCSS files and use variables. In your application.scss file you just need to add: '@import "bulma";' and you can now use Bulma style in your app! Just remember that this line always needs to be the LAST line in the file.</p>
-        <p>At some point you're going to want to override some of the default settings provided by Bulma. Maybe you want links to be a different color when you hover over them or maybe you want 'is-size-7' to be a different size. To overwrite the default settings of Bulma you need to find the variable name in their documenation and then add that variable name with the settings you want in the application.scss file.</p>
-        <p>To view the values of the variables that Bulma has set by default you can look here - <a href='http://bulma.io/documentation/customize/variables/' target='_blank'>Bulma Variables</a></p>
-        <p>For example, by default Bulma gives links a blue color. You can see this in the documentation:</p>
-        <img className='mb-3' src="https://no-bs-code-production.s3.amazonaws.com/LinkColor.png" />
-        <p>If you wanted to change the color of links you would add this line of code to your application.scss file:</p>
+        <p>
+          After that just run &apos;bundle install&apos; and bam. You&apos;ve got Bulma. Now
+          you just have to actually use it.
+        </p>
+        <p>
+          To actually start using Bulma go to your stylesheets folder which is
+          located under Assets and change the application.css file to
+          application.scss. This changes your main style sheet from a Cascading
+          Style Sheet (CSS) to a Syntactically Awesome Style Sheet (SCSS). I&apos;m
+          not making that up, that&apos;s really what SCSS stands for. SCSS is
+          basically more advanced CSS and lets you do cool things like import
+          SCSS files and use variables. In your application.scss file you just
+          need to add: &apos;@import &quot;bulma&quot;;&apos; and you can now use Bulma style in
+          your app! Just remember that this line always needs to be the LAST
+          line in the file.
+        </p>
+        <p>
+          At some point you&apos;re going to want to override some of the default
+          settings provided by Bulma. Maybe you want links to be a different
+          color when you hover over them or maybe you want &apos;is-size-7&apos; to be a
+          different size. To overwrite the default settings of Bulma you need to
+          find the variable name in their documenation and then add that
+          variable name with the settings you want in the application.scss file.
+        </p>
+        <p>
+          To view the values of the variables that Bulma has set by default you
+          can look here -{" "}
+          <a
+            href="http://bulma.io/documentation/customize/variables/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bulma Variables
+          </a>
+        </p>
+        <p>
+          For example, by default Bulma gives links a blue color. You can see
+          this in the documentation:
+        </p>
+        <img
+          className="mb-3"
+          src="https://no-bs-code-production.s3.amazonaws.com/LinkColor.png"
+        />
+        <p>
+          If you wanted to change the color of links you would add this line of
+          code to your application.scss file:
+        </p>
         <div className="code-block">$link: #0077b6;</div>
-        <p>As another example, these are the default settings I almost always start with in any new project. I change the colors once I decide on a theme.</p>
+        <p>
+          As another example, these are the default settings I almost always
+          start with in any new project. I change the colors once I decide on a
+          theme.
+        </p>
         <pre>
           <code>{`
   /*
@@ -86,18 +140,62 @@ $link-hover:  #ea3546;
 @import "bulma";
           `}</code>
         </pre>
-        <p>The style for this website is pretty simple, the stylesheets can be viewed here - <a href="https://github.com/madducks42/no-bs-code-guide/tree/main/app/assets/stylesheets" target='_blank'>Stylesheets</a>. Some of these stylesheets I basically copy/paste into every new app and tweak as necessary although they mostly remain the same.</p>
+        <p>
+          The style for this website is pretty simple, the stylesheets can be
+          viewed here -{" "}
+          <a
+            href="https://github.com/madducks42/no-bs-code-guide/tree/main/app/assets/stylesheets"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Stylesheets
+          </a>
+          . Some of these stylesheets I basically copy/paste into every new app
+          and tweak as necessary although they mostly remain the same.
+        </p>
         <div className="content">
           <ul>
-            <li><a href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/general.scss" target='_blank'>general.scss</a></li>
-            <li><a href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/font.scss" target='_blank'>font.scss</a></li>
-            <li><a href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/utilities.scss" target='_blank'>utilities.scss</a></li>
-            <li><a href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/spacing.scss" target='_blank'>spacing.scss</a></li>
+            <li>
+              <a
+                href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/general.scss"
+                target="_blank"
+                rel="noreferrer"
+              >
+                general.scss
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/font.scss"
+                target="_blank"
+                rel="noreferrer"
+              >
+                font.scss
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/utilities.scss"
+                target="_blank"
+                rel="noreferrer"
+              >
+                utilities.scss
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/madducks42/no-bs-code-guide/blob/main/app/assets/stylesheets/spacing.scss"
+                target="_blank"
+                rel="noreferrer"
+              >
+                spacing.scss
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Bulma
+export default Bulma;

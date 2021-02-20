@@ -6,7 +6,7 @@ export const Home = () => {
     <div className="container">
       <div className="callout m-sm p-sm">
         <h3 className="is-size-3">About This Site</h3>
-        <p>As someone who took a somewhat circuitous to becoming a software developer, first by teaching myself as much as possible and then completing a bootcamp, I find most articles and forums to be rather useless. They're either outdated or they don't include important context because they assume that the reader has a strong background in software development.</p>
+        <p>As someone who took a somewhat circuitous to becoming a software developer, first by teaching myself as much as possible and then completing a bootcamp, I find most articles and forums to be rather useless. They&apos;re either outdated or they don&apos;t include important context because they assume that the reader has a strong background in software development.</p>
         <p>I decided to put this guide together for purely selfish reasons. It gives me a place to store notes and guides that I find useful for myself. It allows me to practice my coding skills. And it allows me to talk a lot of bullshit. The latter is the main motivation.</p>
       </div>
       <div className='flex-column m-sm'>
@@ -27,7 +27,7 @@ export const Home = () => {
           >
             Adding Bulma to Rails/React Project
           </Link>
-          <p>Simple guide on how to add the Bulma style framework to your project along with some basic style sheets.</p>
+          <p>Bulma is currently my prefered CSS framework. This is a guide on how to add it along with some basic tips.</p>
         </div>
         <div className='guide-link'>
           <Link
@@ -36,16 +36,16 @@ export const Home = () => {
           >
             Adding Bootstrap to Rails/React Project
           </Link>
-          <p>Simple guide on how to add Bootstrap to your Rails/React project. Personally I hate Bootstrap but whatevs.</p>
+          <p>Personally I hate Bootstrap but this is a simple guide with how to get started using it in Rails/React project.</p>
         </div>
         <div className='guide-link'>
           <Link
             className="is-size-6 article-link"
             to='/prettier-eslint'
           >
-            Setup Prettier & ES Lint (Coming Soon!)
+            Setup Prettier & ES Lint
           </Link>
-          <p>Simple guide on how to add Prettier and ES Lint to your Rails/React project.</p>
+          <p>Prettier is a code formatter that is widely used and I really like it. ES Lint is a commonly used linter that I also find really useful.</p>
         </div>
       </div>
     </div>
