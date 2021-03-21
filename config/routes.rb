@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get 'bulma', to: 'homepages#index'
   get 'bootstrap', to: 'homepages#index'
   get 'prettier-eslint', to: 'homepages#index'
+  get 'lightbox', to: 'homepages#index'
 end

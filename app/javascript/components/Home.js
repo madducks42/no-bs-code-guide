@@ -47,6 +47,15 @@ export const Home = () => {
           </Link>
           <p>Prettier is a code formatter that is widely used and I really like it. ES Lint is a commonly used linter that I also find really useful.</p>
         </div>
+        <div className='guide-link'>
+          <Link
+            className="is-size-6 article-link"
+            to='/lightbox'
+          >
+            Setup Lightbox2
+          </Link>
+          <p>Lightbox2 is useful for setting up image galleries or pop-up windows for images.</p>
+        </div>
       </div>
     </div>
   )
